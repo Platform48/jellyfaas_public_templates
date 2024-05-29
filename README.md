@@ -1,2 +1,12 @@
 # jellyfaas_public_templates
-Jellyfaas Public template
+Jellyfaas Public templates
+
+Includes templates for :
+- Go
+- Java
+- Node
+- Php
+- Python
+- Ruby
+
+Used as part of the cli tooling.
