@@ -5,16 +5,16 @@ runtime: nodejs20
 entrypoint: convertGBPToUSD
 description: Converts pounds to dollars, takes a query param gbp - outputs json
 requirements:
-  - requestType: GET
-    queryParams:
-      - name: gbp
-        required: true
-        description: The amount in GBP to convert to USD
-        example: gbp=100
-    outputSchema:
-      type: object
-      properties:
-        usd:
-          type: float
-          description: The amount in USD
-          example: '{"usd":"120.0"}'
+  requestType: GET
+  queryParams:
+    - name: gbp
+      required: true
+      description: The amount in GBP to convert to USD
+      example: gbp=100
+  outputSchema:
+    type: object
+    properties:
+      usd:
+        type: float
+    outputDescription: The amount in USD
+    outputExample: '{"usd":"120.0"}'
