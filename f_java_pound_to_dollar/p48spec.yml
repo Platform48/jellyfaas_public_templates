@@ -17,4 +17,4 @@ requirements:
       usd:
         type: float
   outputDescription: The amount in USD
-  outputExample: '{"usd":"120.0"}'
+  outputJsonExample: '{"usd":"120.0"}'
