@@ -1,12 +1,14 @@
-# JellyFaas public templates
+# Template function for `php`
+> This template has everything you need to get started with writing your function!
 
-- Go
-- Java
-- Node
-- Php
-- Python
-- Ruby
-
+## Getting started and running:
+- Start by running `composer require google/cloud-functions-framework`
+- For `mac/*nix` run:
+```bash
+export FUNCTION_TARGET=example
+php -S localhost:8080 vendor/google/cloud-functions-framework/router.php
+```
+- For `windows`(note using **cmd**, not **powershell**): `set "FUNCTION_TARGET=example" && php -S localhost:8080 vendor/google/cloud-functions-framework/router.php` 
 ## Compiling and Deploying
 - Make sure your `p48spec.yml` is up-to-date with your project
 - The `shortname` **must** be between 7 - 15 characters

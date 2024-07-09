@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "@google-cloud/functions-framework": "^3.3.0"
-  },
-  "scripts": {
-    "start": "functions-framework --target=convertGBPToUSD"
-  }
-}

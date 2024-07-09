@@ -1,3 +1,3 @@
-./f_java_pound_to_dollar/target
-./f_dotnet_pound_to_dollar/bin
-./f_dotnet_pound_to_dollar/obj
+java-template/target
+dotnet-template/bin
+dotnet-template/obj

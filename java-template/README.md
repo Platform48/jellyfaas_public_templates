@@ -1,11 +1,17 @@
-# JellyFaas public templates
+# Template function for `Java`
 
-- Go
-- Java
-- Node
-- Php
-- Python
-- Ruby
+> This template has everything you need to get started with writing your function!
+
+## Getting started and running:
+
+- ``mvn install``
+
+Then run :
+
+```
+mvn clean package
+mvn function:run
+```
 
 ## Compiling and Deploying
 - Make sure your `p48spec.yml` is up-to-date with your project
@@ -29,4 +35,5 @@ you can list the broken builds and then clean up with the following:
 
 - ``./p48cli builds list``
 - ``./p48cli builds clean --buildId <buildId>``
+
 
