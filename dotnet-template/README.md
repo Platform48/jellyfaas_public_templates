@@ -1,7 +1,7 @@
 # Template function for `dotnet`
 
 > This template has everything you need to get started with writing your function!
-> 
+
 ## Compiling and Deploying
 - Make sure your `p48spec.yml` is up-to-date with your project
 - The `shortname` **must** be between 7 - 15 characters

@@ -2,7 +2,7 @@
 name: Example Project
 shortname: example
 runtime: java21
-entrypoint: Example
+entrypoint: jfv1.Example
 description: Takes a name as query and greets you!
 requirements:
   requestType: GET

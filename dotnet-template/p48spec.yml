@@ -2,7 +2,7 @@
 name: Example Project
 shortname: example
 runtime: dotnet8
-entrypoint: Example
+entrypoint: ExampleProject.Example
 description: Takes a name as query and greets you!
 requirements:
   requestType: GET

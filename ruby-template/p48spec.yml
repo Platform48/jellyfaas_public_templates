@@ -2,7 +2,7 @@
 name: Example Project
 shortname: example
 runtime: ruby32
-entrypoint: Example
+entrypoint: example
 description: Takes a name as query and greets you!
 requirements:
   requestType: GET
