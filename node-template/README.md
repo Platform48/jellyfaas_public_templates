@@ -1,11 +1,13 @@
-# JellyFaas public templates
+# Template function for `node.js`
 
-- Go
-- Java
-- Node
-- Php
-- Python
-- Ruby
+> This template has everything you need to get started with writing your function!
+
+## Getting started and running:
+- `npm install @google-cloud/functions-framework`
+
+Then for run :
+
+- `npm start`
 
 ## Compiling and Deploying
 - Make sure your `p48spec.yml` is up-to-date with your project
