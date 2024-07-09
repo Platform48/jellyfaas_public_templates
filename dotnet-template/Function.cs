@@ -31,7 +31,7 @@ namespace ExampleProject
             }
 
             // Create the greeting message
-            var greeting = "hello, " + name + "!";
+            var greeting = $"hello, {name}!";
 
             // Prepare the return data
             var returnData = new ReturnData { Greeting = greeting };
