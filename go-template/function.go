@@ -1,4 +1,4 @@
-package pound_to_dollar
+package example
 
 import (
 	"encoding/json"

@@ -1,4 +1,4 @@
-module github.com/Platform48/f_go_pound_to_dollar
+module github.com/platform48-functions/example
 
 go 1.22.2
 
