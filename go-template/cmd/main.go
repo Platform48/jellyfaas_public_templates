@@ -6,7 +6,7 @@ import (
 
 	// Blank-import the function package so the init() runs
 	"github.com/GoogleCloudPlatform/functions-framework-go/funcframework"
-	_ "github.com/Platform48/f_go_pound_to_dollar"
+	_ "github.com/platform48-functions/example" // <--- make sure to change example to the repo name
 )
 
 func main() {
