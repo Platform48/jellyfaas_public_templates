@@ -1,0 +1,37 @@
+# Jellyfaas ignore file.
+# These are files that will not be added in to the zip on build/deploy.
+# Uses the standard .gitignore format. https://git-scm.com/docs/gitignore/en
+
+/fuel/vendor
+
+# the fuelphp document
+/docs/
+
+# dynamically generated files
+/fuel/app/logs/*/*/*
+/fuel/app/cache/*/*
+/fuel/app/config/crypt.php
+
+/vendor/*
+/config/app.php
+
+/tmp/cache/models/*
+!/tmp/cache/models/empty
+/tmp/cache/persistent/*
+!/tmp/cache/persistent/empty
+/tmp/cache/views/*
+!/tmp/cache/views/empty
+/tmp/sessions/*
+!/tmp/sessions/empty
+/tmp/tests/*
+!/tmp/tests/empty
+
+/logs/*
+!/logs/empty
+
+# CakePHP 2
+
+/app/tmp/*
+/app/Config/core.php
+/app/Config/database.php
+/vendors/*
