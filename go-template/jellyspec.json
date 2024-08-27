@@ -1,0 +1,30 @@
+{
+    "name": "Example Project",
+    "shortname": "example",
+    "runtime": "go122",
+    "entrypoint": "ExampleProject.Example",
+    "description": "Takes a name as query and greets you!",
+    "requirements": {
+        "requestType": "GET",
+        "queryParams": [
+            {
+                "name": "name",
+                "required": true,
+                "description": "Name of person",
+                "exampleData": "name=foo"
+            }
+        ],
+        "outputJsonSchema": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "properties": {
+                "greeting": {
+                    "type": "string"
+                }
+            },
+            "title": "Generated schema from jellyfaas",
+            "type": "object"
+        },
+        "outputDescription": "Greeting",
+        "outputJsonExample": "{\"greeting\":\"hello, foo!\"}"
+    }
+}
