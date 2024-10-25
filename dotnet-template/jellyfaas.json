@@ -1,9 +1,9 @@
 {
   "$jellyspecversion":"v1.0.0",
   "name": "Example Project",
-  "shortname": "greeter",
-  "runtime": "java21",
-  "entrypoint": "jfv1.Example",
+  "shortname": "randomtest",
+  "runtime": "go122",
+  "entrypoint": "ExampleProject.Example",
   "description": "Takes a name as query and greets you!",
   "requirements": {
     "requestType": "GET",

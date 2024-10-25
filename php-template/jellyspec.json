@@ -2,8 +2,8 @@
   "$jellyspecversion":"v1.0.0",
   "name": "Example Project",
   "shortname": "greeter",
-  "runtime": "java21",
-  "entrypoint": "jfv1.Example",
+  "runtime": "php82",
+  "entrypoint": "Example",
   "description": "Takes a name as query and greets you!",
   "requirements": {
     "requestType": "GET",
