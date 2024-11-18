@@ -8,7 +8,7 @@
 - The `entrypoint` **must** be the name of your function (**cAsE-sEnSiTiVe**).
 
 > You must ensure your API key is valid, and you are registered - you only need to do this once:
-`./jellyfaas apikey -e <email> -p <password>`
+`./jellyfaas apikey`
 
 ### Deploying to JellyFaas
 > `jellyfaas zip -d true -o true` in the same directory as your project
