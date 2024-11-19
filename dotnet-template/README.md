@@ -2,6 +2,10 @@
 
 > This template has everything you need to get started with writing your function!
 
+## Getting started
+
+- Run `dotnet run`
+
 ## Compiling and Deploying
 
 - Make sure your `jellyspec.json` is up-to-date with your project
