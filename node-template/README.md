@@ -10,6 +10,8 @@ Then for run :
 
 - `npm start`
 
+Check that the correct name (and case) matches in `package.json`
+
 ## Compiling and Deploying
 
 - Make sure your `jellyspec.json` is up-to-date with your project
