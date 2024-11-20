@@ -1,3 +1,5 @@
 java-template/target
 dotnet-template/bin
 dotnet-template/obj
+.vscode
+

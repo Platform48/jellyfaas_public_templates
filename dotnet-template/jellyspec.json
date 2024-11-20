@@ -1,8 +1,8 @@
 {
-  "$jellyspecversion":"v1.0.0",
+  "$jellyspecversion": "v1.0.0",
   "name": "Example Project",
   "shortname": "randomtest",
-  "runtime": "go122",
+  "runtime": "dotnet8",
   "entrypoint": "ExampleProject.Example",
   "description": "Takes a name as query and greets you!",
   "requirements": {
