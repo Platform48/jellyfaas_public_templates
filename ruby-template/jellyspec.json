@@ -1,9 +1,9 @@
 {
-  "$jellyspecversion":"v1.0.0",
+  "$jellyspecversion": "v1.0.0",
   "name": "Example Project",
   "shortname": "greeter",
   "runtime": "ruby32",
-  "entrypoint": "Example",
+  "entrypoint": "example",
   "description": "Takes a name as query and greets you!",
   "requirements": {
     "requestType": "GET",
