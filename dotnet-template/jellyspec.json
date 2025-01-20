@@ -1,7 +1,7 @@
 {
   "$jellyspecversion": "v1.0.0",
   "name": "Example Project",
-  "shortname": "randomtest",
+  "shortname": "greeter",
   "runtime": "dotnet8",
   "entrypoint": "ExampleProject.Example",
   "description": "Takes a name as query and greets you!",
@@ -15,7 +15,8 @@
         "exampleData": "name=foo"
       }
     ],
-    "outputJsonSchema": {
+    "outputType": "JSON",
+    "outputSchema": {
       "$schema": "https://json-schema.org/draft/2020-12/schema",
       "properties": {
         "greeting": {
@@ -28,5 +29,7 @@
     "outputDescription": "Greeting",
     "outputJsonExample": "{\"greeting\":\"hello, foo!\"}"
   },
-  "deployAll": false
+  "tags": [
+    "template"
+  ]
 }

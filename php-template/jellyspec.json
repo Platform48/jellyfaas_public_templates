@@ -1,5 +1,5 @@
 {
-  "$jellyspecversion":"v1.0.0",
+  "$jellyspecversion": "v1.0.0",
   "name": "Example Project",
   "shortname": "greeter",
   "runtime": "php82",
@@ -15,7 +15,8 @@
         "exampleData": "name=foo"
       }
     ],
-    "outputJsonSchema": {
+    "outputType": "JSON",
+    "outputSchema": {
       "$schema": "https://json-schema.org/draft/2020-12/schema",
       "properties": {
         "greeting": {
@@ -28,5 +29,7 @@
     "outputDescription": "Greeting",
     "outputJsonExample": "{\"greeting\":\"hello, foo!\"}"
   },
-  "deployAll": false
+  "tags": [
+    "template"
+  ]
 }
