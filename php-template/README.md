@@ -21,7 +21,7 @@ php -S localhost:8080 vendor/google/cloud-functions-framework/router.php
 - The `entrypoint` **must** be the name of your function (**cAsE-sEnSiTiVe**).
 
 > You must ensure your API key is valid, and you are registered - you only need to do this once:
->`./jellyfaas apikey` (your key is on your profile page on <https://app.jellyfaas.com/profile>)
+>`./jellyfaas apikey` (your key is on your profile page on <https://app.jellyfaas.com/account>)
 
 ### Deploying to JellyFaas
 >
